@@ -9,3 +9,13 @@ html, body {
     background: url('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
 }
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border-width: 0;
+    font-size: 20px;
+    background-color: lightgrey;
+}
