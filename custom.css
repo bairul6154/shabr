@@ -19,3 +19,6 @@ html, body {
     font-size: 20px;
     background-color: lightgrey;
 }
+img {
+    width:100%;
+}
