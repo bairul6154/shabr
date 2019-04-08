@@ -24,5 +24,15 @@ img {
 }
 
 .card-body{
-    border: red solid 2px;
+    border-left: red solid 2px;
+}
+
+h1{
+    text-align: center;
+}
+
+#testimonials{
+    background-color: black;
+    width: 100%;
+    color: white;
 }
