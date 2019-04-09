@@ -43,8 +43,16 @@ h1{
     color: lightblue;
 }
 
+.balloon{
+    width: 10%;
+    height: 10%;
+    margin-left: 20px;
+    position: absolute;
+}
+
 #home{
     font-family: permanent marker;
     margin: 20px;
     background-image: linear-gradient(to right,rgb(255, 193, 128),rgb(255, 153, 51));
+    text-align: center;
 }
