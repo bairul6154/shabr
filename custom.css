@@ -39,3 +39,15 @@ h1{
     width: 100%;
     color: white;
 }
+
+#testimonials-h1{
+    font-family: satisfy;
+    font-size: 50px;
+    color: lightblue;
+}
+
+#home{
+    font-family: permanent marker;
+    margin: 20px;
+    background-image: linear-gradient(to right,rgb(255, 193, 128),rgb(255, 153, 51));
+}
