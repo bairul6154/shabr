@@ -9,9 +9,13 @@ html, body {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.35)), url('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
 }
-#landing h1 {
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
     color: white;
-}
+  }
 .navbar .navbar-collapse {
     text-align: center;
 }
@@ -29,9 +33,8 @@ img {
     border-left: red solid 2px;
 }
 
-h1{
+h1 {
     text-align: center;
-    filter: blur(0);
 }
 
 #testimonials{
@@ -50,4 +53,24 @@ h1{
     font-family: permanent marker;
     margin: 20px;
     background-image: linear-gradient(to right,rgb(255, 193, 128),rgb(255, 153, 51));
+}
+#test {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+@media(min-width:1200px) {
+    #landing h1 {
+        font-size: 120px;
+     }
+}
+@media(min-width:992px) {
+    #landing h1 {
+        font-size: 100px;
+    }
+}
+@media(min-width:768px) {
+    #landing h1 {
+        font-size: 80px;
+    }
 }
