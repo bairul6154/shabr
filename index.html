@@ -13,7 +13,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    
+
     <!-- font style sheet-->
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Playball|Satisfy" rel="stylesheet">
 
@@ -25,22 +25,24 @@
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <div id="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <div class="nav navbar-nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#info">Info</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
             </div>
-        </div>
-    </nav> <br> <br>
+        </nav>
+    </div> <br> <br>
 
     <!--image home-->
     <div id="landing">
@@ -52,6 +54,9 @@
 
     <!--home-->
     <div class="jumbotron" id="home">
+        <div class="balloon">
+            <img src="img/hot-air-balloon-clipart.png">
+        </div>
         <h1>Fun for everyone</h1>
         <h2>Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</h2>
     </div>
@@ -102,7 +107,7 @@
     </div>
 
     <!--Info-->
-    <div class="info">
+    <div id="info">
         <div class="container">
             <div class="col-sm-6">
                 <h1>Time</h1>

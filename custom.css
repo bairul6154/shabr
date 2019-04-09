@@ -1,7 +1,9 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 #landing {
     display: table;
     width: 100%;
@@ -15,7 +17,8 @@ html, body {
     vertical-align: middle;
     display: table-cell;
     color: white;
-  }
+}
+
 .navbar .navbar-collapse {
     text-align: center;
 }
@@ -25,52 +28,72 @@ html, body {
     font-size: 20px;
     background-color: lightgrey;
 }
+
 img {
-    width:100%;
+    width: 100%;
 }
 
-.card-body{
+.card-body {
     border-left: red solid 2px;
 }
 
 h1 {
     text-align: center;
+    font-size: 40px;
 }
 
-#testimonials{
+h2 {
+    font-size: 20px;
+}
+
+#testimonials {
     background-color: black;
     width: 100%;
     color: white;
 }
 
-#testimonials-h1{
+#testimonials-h1 {
     font-family: satisfy;
     font-size: 50px;
     color: lightblue;
 }
 
-#home{
+.balloon {
+    width: 10%;
+    height: 10%;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#home {
     font-family: permanent marker;
     margin: 20px;
-    background-image: linear-gradient(to right,rgb(255, 193, 128),rgb(255, 153, 51));
+    background-image: linear-gradient(to right, rgb(255, 193, 128), rgb(255, 153, 51));
 }
-#test {
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-}
-@media(min-width:1200px) {
+
+@media(min-width:768px) {
     #landing h1 {
-        font-size: 120px;
-     }
+        font-size: 60px;
+    }
+    #landing h2 {
+        font-size: 20px;
+    }
 }
+
 @media(min-width:992px) {
+    #landing h1 {
+        font-size: 80px;
+    }
+    #landing h2 {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:1200px) {
     #landing h1 {
         font-size: 100px;
     }
-}
-@media(min-width:768px) {
-    #landing h1 {
-        font-size: 80px;
+    #landing h2 {
+        font-size: 40px;
     }
 }
